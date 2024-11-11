@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>♡___♡</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Load the message.js first for random messages -->
+    <script src="messages.js" defer></script>
+    <!-- Load calendarMessages.js for calendar logic -->
+    <script src="calendarMessages.js" defer></script>
+    <!-- script.js will remain clean and handle other tasks -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="main-content">
+        <div class="header">
+            <img src="hehecat.png" alt="Icon" class="icon">
+            <div id="message" class="message"></div>
+        </div>
+
+        <!-- New section for 'On this day...' -->
+        <div class="on-this-day">On this day...</div>
+
+        <!-- Calendar section with date message on the left and calendar on the right -->
+        <div class="calendar-section">
+            <div class="date-message" id="dateMessage"></div>
+            <div class="calendar" id="calendar"></div>
+        </div>
+    </div>
+</body>
+
+</html>

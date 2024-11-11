@@ -1,0 +1,114 @@
+/* First Font (CustomFont) */
+@font-face {
+    font-family: 'CustomFont';
+    src: url('fonts/Gafiton-Outline.woff2') format('woff2'),
+         url('fonts/Gafiton-Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Second Font (AnotherFont) */
+@font-face {
+    font-family: 'AnotherFont';
+    src: url('fonts/Gafiton-Regular.woff2') format('woff2'),
+         url('fonts/Gafiton-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Center content vertically and horizontally */
+body {
+    font-family: 'CustomFont', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ebe9e1;
+}
+
+/* Main content container to align elements */
+.main-content {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 20px;
+    padding: 20px;
+}
+
+/* Header section to align icon and daily message side by side */
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Style for the icon */
+.icon {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* The second font in the daily message area */
+.message {
+    font-family: 'AnotherFont', sans-serif;
+    font-size: 2.2em;
+    color: #355E3B;
+    text-align: justify;
+    max-width: 700px; /* Set max width to align with the calendar */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 20px;
+}
+
+/* 'On this day...' section styling */
+.on-this-day {
+    font-family: 'CustomFont', sans-serif;
+    font-size: var(--on-this-day-size, 2.5em);
+    color: #355E3B;
+    margin: 20px 0;
+}
+
+/* Calendar section with date message on the left and calendar on the right */
+.calendar-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* Style for the date-specific message area */
+.date-message {
+    flex: 1;
+    font-family: 'AnotherFont', sans-serif;
+    font-size: 1.2em;
+    color: #355E3B;
+    max-width: 400px;
+}
+
+/* Calendar styling */
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    max-width: 250px;
+    font-family: 'AnotherFont', sans-serif;
+    font-size: 0.9em;
+    color: #355E3B;
+}
+
+/* Style for each calendar day */
+.calendar div {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e0e0e0;
+}
+
+/* Highlight current date */
+.current-day {
+    background-color: #355E3B !important;
+    color: #fff;    
+}
