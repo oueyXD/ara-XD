@@ -78,6 +78,16 @@ body {
     gap: 20px;
 }
 
+/* Mobile view: Stack date message and calendar vertically */
+@media (max-width: 768px) {
+    .calendar-section {
+        display: block;  /* Switches to a block layout for vertical stacking */
+    }
+
+    .calendar {
+        margin-top: 20px;  /* Adds space between date message and calendar */
+    }
+}
 /* Style for the date-specific message area */
 .date-message {
     flex: 1;
