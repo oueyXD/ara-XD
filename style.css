@@ -53,7 +53,7 @@ body {
 /* The second font in the daily message area */
 .message {
     font-family: 'AnotherFont', sans-serif;
-    font-size: 1vw;
+    font-size: 2.3em;
     color: #355E3B;
     text-align: justify;
     max-width: 700px; /* Set max width to align with the calendar */
@@ -61,7 +61,11 @@ body {
     overflow-wrap: break-word;
     margin-bottom: 20px;
 }
-
+@media (max-width: 400px) {
+    .message {
+        font-size: 0.5em; /* Smaller font for tablets */
+    }
+}
 /* 'On this day...' section styling */
 .on-this-day {
     font-family: 'CustomFont', sans-serif;
