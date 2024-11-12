@@ -53,7 +53,7 @@ body {
 /* The second font in the daily message area */
 .message {
     font-family: 'AnotherFont', sans-serif;
-    font-size: clamp(0.5em, 2vw, 2.3em);
+    font-size: clamp(0.5em, 1.2em, 2.3em);
     color: #355E3B;
     text-align: justify;
     max-width: 700px; /* Set max width to align with the calendar */
