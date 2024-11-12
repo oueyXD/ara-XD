@@ -61,7 +61,7 @@ body {
     overflow-wrap: break-word;
     margin-bottom: 20px;
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .message {
         font-size: 1.5em; /* Smaller font for mobile */
     }
