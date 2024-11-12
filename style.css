@@ -63,7 +63,7 @@ body {
 }
 @media (max-width: 400px) {
     .message {
-        font-size: 1.0em; /* Smaller font for tablets */
+        font-size: 1.5em; /* Smaller font for mobile */
     }
 }
 /* 'On this day...' section styling */
