@@ -1,6 +1,3 @@
-// calendarMessages.js
-
-// Date-specific messages (you can add more for different dates)
 const dateMessages = {
     "07-13": "Happy anniversary, baby",
     "06-13": "First usap natin! Happy birthday din Jinsoul",
