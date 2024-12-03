@@ -15,7 +15,7 @@ const dateMessages = {
     "10-15": "Nagpa earl piercing ka!",
     "11-29": "Dinala natin sila Sisig at Siomai sa VETMED building para sa free anti-rabies. Nauna ka umalis sa klase mo kasi inuna mo kabadingan dahil nasa labas ako",
     "11-24": "Nagdate tayo sa Baybay after palitan piercing mo. Naka striped sweatshirt ako tas purple pa buhok mo",
-    "12-04": "Lighting ceremony sa VSU! Nagkiss tayo sa Christmas tree, pinicturan tayo nung mga bading, tas nawala yung isang polaroid natin",
+    "12-04": "Lighting ceremony sa VSU! Nagkiss tayo sa Christmas tree, pinicturan tayo nung mga bading, tas nawala yung isang polaroid natin :(",
     "12-10": "Nagdate tayo sa oval. Sa date na to galing yung fav pic ko nating dalawa",
     "12-12": "Long exam sa ITEC natin tas pinakopya mo ako. Mas malaki pa rin score mo :/",
     "12-17": "Beach date na sobrang aga",
