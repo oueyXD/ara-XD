@@ -27,6 +27,9 @@ const messages = [
     "I crave your mouth, your voice, your hair. Silent and starving, I prowl through the streets. Bread does not nourish me, dawn disrupts me, all day I hunt for the liquid measure of your steps.",
     "I want to fill my mouth with your name. I want to eat you whole.",
     "You are the hand that touches my face when I awaken from death. I only ever dream of you.",
+    "i love you, in ways you've never been loved, for reasons you've never been told, for longer than you think you deserved and with more than you will ever know existed inside me.",
+    "In that moment, I want to read you better than my favorite book. Study the outline of your frame. Shine angled to cheek. Light sweat on temple. Mouth half perched up, quiet yelling to the sky. Chest radiating with sun.",
+    
     
     
 ];
